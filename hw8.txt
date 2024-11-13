@@ -1,0 +1,20 @@
+1. Write a query string with 2 values for www.example.com
+www.example.com?school=fordham&class=cisc3300
+
+2. What is meant by escaping a character?
+Escaping a character refers to the process of marking special characters in a string so they are treated as plain text rather than having their special function. 
+
+3. What are the following HTTP status and their meanings:
+200: OK - The request has succeeded.
+400: Bad Request - The server could not understand the request due to invalid syntax.
+401: Unauthorized - The client must authenticate itself to get the requested response.
+403: Forbidden - The client does not have access rights to the content.
+404: Not Found - The server can not find the requested resource.
+500: Internal Server Error - The server has encountered a situation it doesn't know how to handle.
+
+4. Why do we need to validate data?
+Data validation can ensure the accuracy, completeness, and consistency of input data. It helps prevent data-related errors, improves data security by mitigating potential threats such as SQL injection, and ensures the application behaves as expected
+
+5. What are sessions and cookies? What do they do?
+Sessions: Server-side storage that holds user data across multiple requests while the user is logged in or browsing. Sessions expire after a set period or when the user logs out.
+Cookies: Small data files stored on the client's device by the web browser. They are used to retain user preferences, authentication status, and other data for easy and personalized access.
